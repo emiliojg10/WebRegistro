@@ -40,20 +40,20 @@
 
 ## ⚙️ Instalación local
 
-```bash
-# Clona el repositorio
-git clone https://github.com/emiliojg10/WebRegistro.git
-cd WebRegistro
-
-# (Opcional) Crea un entorno virtual
-python -m venv env
-env\Scripts\activate  # En Windows
-
-# Instala las dependencias
-pip install -r requirements.txt
-
-# Ejecuta la aplicación
-python main.py
+    ```bash
+    # Clona el repositorio
+    git clone https://github.com/emiliojg10/WebRegistro.git
+    cd WebRegistro
+    
+    # (Opcional) Crea un entorno virtual
+    python -m venv env
+    env\Scripts\activate  # En Windows
+    
+    # Instala las dependencias
+    pip install -r requirements.txt
+    
+    # Ejecuta la aplicación
+    python main.py
 
 ---
 
