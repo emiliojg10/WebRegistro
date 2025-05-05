@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+google-cloud-firestore
+google-cloud-bigquery
+pydantic[email]
+firebase-admin
+pandas
+openpyxl
+python-multipart
