@@ -22,5 +22,45 @@
   - Registros por año de nacimiento
   - Distribución por proveedor de correo electrónico
   - Filtros dinámicos para explorar registros
+ 
+---
 
+## 📁 Estructura del proyecto
 
+    WebRegistroExyt/
+    │
+    ├── main.py # Archivo principal de la aplicación
+    ├── requirements.txt # Dependencias del proyecto
+    ├── Dockerfile # (Opcional) Para despliegue en contenedores
+    ├── .gitignore
+    ├── exyt-control/ # Subdirectorio adicional del proyecto que contiene el frontend
+    └── ...
+
+---
+
+## ⚙️ Instalación local
+
+```bash
+# Clona el repositorio
+git clone https://github.com/emiliojg10/WebRegistro.git
+cd WebRegistro
+
+# (Opcional) Crea un entorno virtual
+python -m venv env
+env\Scripts\activate  # En Windows
+
+# Instala las dependencias
+pip install -r requirements.txt
+
+# Ejecuta la aplicación
+python main.py
+
+---
+
+## 📊 Dashboard Looker Studio
+Puedes acceder al dashboard creado en Looker Studio con estadísticas en tiempo real
+
+---
+
+## ✍️ Autor
+Desarrollado por Emilio Jiménez
